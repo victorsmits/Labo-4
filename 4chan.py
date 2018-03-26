@@ -19,7 +19,7 @@ import sys, os, re, json, argparse, urllib.request as req
 
 class Post:
     def __init__(self, no, tim=None, ext=None, filename=None):
-        self.no  = no
+        self.no = no
         self.tim = tim
         self.ext = ext
         self.filename = filename
